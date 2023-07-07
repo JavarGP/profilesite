@@ -30,7 +30,7 @@ ul li {
 
 .introduction {
     position: relative;
-    background-image: url(../webTemplates/pictures/pexels-ilham-izzul-1328879.jpg);
+    background-image: url(pexels-ilham-izzul-1328879.jpg);
     width: auto;
     height:calc(100%/2.25);
     background-size: cover;
@@ -46,7 +46,7 @@ ul li {
 
 .main {
     position: relative;
-    background-image:linear-gradient(white, rgba(0, 0, 0, 0.5)), url(../webTemplates/pictures/pexels-jeremy-bishop-2923594.jpg);
+    background-image:linear-gradient(white, rgba(0, 0, 0, 0.5)), url(pexels-jeremy-bishop-2923594.jpg);
     width: auto;
     height:calc(100vw/2.25);
     background-size: cover;
@@ -89,7 +89,7 @@ ul li {
 /* within the main body of thesite these allow the text to float around the image */
 .mount_image {
 float: right;
-shape-outside: url(/webTemplates/pictures/pexels-valdemaras-d-1647972-Recovered.png);
+shape-outside: url(pexels-valdemaras-d-1647972-Recovered.png);
 z-index: 1;
 shape-margin: 2rem;
 }
