@@ -51,13 +51,10 @@ ul li {
     height:calc(100%/2.25);
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    overflow: hidden;
-/*     flex-direction: row;
+    flex-direction: row;
     justify-content: start;
     overflow: hidden;
-    align-items: center; */
+    align-items: center;
 }
 
 .footer {
