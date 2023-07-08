@@ -48,13 +48,16 @@ ul li {
     position: relative;
     background-image:linear-gradient(white, rgba(0, 0, 0, 0.5)), url(pexels-jeremy-bishop-2923594.jpg);
     width: auto;
-    height:calc(100vw/2.25);
+    height:calc(100%/2.25);
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+/*     flex-direction: row;
     justify-content: start;
     overflow: hidden;
-    align-items: center;
+    align-items: center; */
 }
 
 .footer {
