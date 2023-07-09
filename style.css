@@ -30,7 +30,7 @@ ul li {
 
 .introduction {
     position: relative;
-    background-image: url(../webTemplates/pictures/pexels-ilham-izzul-1328879.jpg);
+    background-image: url(pexels-ilham-izzul-1328879.jpg);
     width: auto;
     height:calc(100%/2.25);
     background-size: cover;
@@ -104,7 +104,7 @@ shape-margin: 2rem;
 .person-image {
 float: left;
 width: 20rem;
-shape-outside: url(/webTemplates/pictures/bonsai-tree.png);
+shape-outside: url(bonsai-tree.png);
 z-index: 1;
 aspect-ratio: 1;
 shape-margin: 2rem;
