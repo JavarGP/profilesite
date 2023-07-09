@@ -406,6 +406,7 @@ li {
     .explanation {
         align-items: center;
         margin: 2rem;
+        border: none;
     }
 
     .card img {
