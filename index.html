@@ -16,22 +16,22 @@
             <div class="title">
                 <a><img src="transparent Logo QCE.png" alt="" id="logo_h"></a>
             </div>
-            <h1>Javar Place</h1>  
-        </div>
-
-                
-            
-        <div class="collapse-menu">
-                <div class="material-symbols-outlined">menu</div>
+            <h1>Javar Place</h1>
+               <div class="collapse-menu">
+                <div class="material-symbols-outlined" onclick="showmenu()">menu</div>
             </div>                
         </div>
-        <div class="menu-drop-down" id="test-menu">
+        <div class="menu-drop-down" id="dropdown_menu">
             <a>About</a>
             <a>Gallery</a>
             <a>Shop</a>
             <a>Login</a>
         </div>
-        
+        </div>
+
+                
+            
+      
         <div class="billboard">
             <div class="holder deck-info">
                 <h1>QCE Turner</h1>
@@ -138,6 +138,10 @@
             </ul>
         </nav>
     </section>    
-    <script src="script.js"></script>
+    <script>
+        function showmenu() {
+        document.getElementById("dropdown_menu").classList.toggle("show");
+        } 
+    </script>
 </body>
 </html>
