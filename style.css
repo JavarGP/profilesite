@@ -455,7 +455,7 @@ li {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgb(29, 0, 50);
+        background: teal;
         overflow: hidden;
         
     }
