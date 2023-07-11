@@ -446,7 +446,7 @@ li {
     .test img {
         position: absolute;
         width: 175%;
-        -webkit-filter: blur(4px) ;
+        -webkit-filter: blur(50px) ;
         object-fit: cover;
     }
     
