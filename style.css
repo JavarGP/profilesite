@@ -30,7 +30,7 @@ ul li {
 
 .introduction {
     position: relative;
-    background-image: url(pexels-ilham-izzul-1328879.jpg);
+    background-image: url(pexels-atikul-haque-rafat-679600\ -\ Copy.jpg);
     width: auto;
     height:calc(100%/2.25);
     background-size: cover;
@@ -505,14 +505,13 @@ li {
         margin: 0  1rem;
     }
 
-    .menu-drop-down {
-        position: absolute;
-        display: flex;
+  .menu-drop-down {
+        position: relative;
+        display: none;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row;
-        margin: 7rem 0;
         padding: .75rem 4rem;
         border-bottom: 1px solid white;
         color: white;
@@ -521,9 +520,14 @@ li {
         border-bottom: none;
         backdrop-filter: blur(5px);
     }
+    
 
     .menu-drop-down a {
         padding: 2rem 4.5rem;
+    }
+
+    .show {
+        display: flex;        
     }
 
     
